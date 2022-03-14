@@ -1,6 +1,5 @@
 // Js
 let navbar = document.querySelector(".nav").querySelectorAll("a");
-
 // _________________________________________________________
 
 // Jquery

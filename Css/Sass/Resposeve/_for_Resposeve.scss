@@ -172,6 +172,18 @@
 }
 
 @media (max-width:300px) {
+  // About
+  .about {
+    .about-content {
+      .personal-info {
+        .info-item {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
   // portofolio
   .portofolio {
     .portofolio-item {
