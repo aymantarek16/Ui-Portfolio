@@ -1118,13 +1118,6 @@ ul {
 }
 
 @media (max-width: 576px) {
-  .skills .skill-item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 50px;
-  }
   .about .about-content .about-text h3 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -1140,6 +1133,16 @@ ul {
   }
   .about .about-content .personal-info .info-item p span {
     margin-left: 0;
+  }
+  .skills .skill-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 {
+    font-size: 25px;
   }
   .contact .contact-title {
     font-size: 22px;
@@ -1165,6 +1168,12 @@ ul {
   }
   .contact .contact-form .form-item textarea.form-control {
     height: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=main.css.map */

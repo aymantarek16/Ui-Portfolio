@@ -88,14 +88,7 @@
 
 
 @media (max-width:576px) {
-  .skills {
-    .skill-item {
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-bottom: 50px;
-    }
-  }
-
+// About
   .about {
     .about-content {
       .about-text {
@@ -124,24 +117,71 @@
     }
   }
 
+// Skills
 
+  .skills {
+    .skill-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+
+
+// portofolio
+  .portofolio {
+    .portofolio-item {
+      .portofolio-item-inner {
+        .portofolio-img {
+          .view {
+            h6 {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+// Contact
   .contact {
     .contact-title {
       font-size: 22px;
     }
+
     .contact-info-item {
       flex: 0 0 100%;
       max-width: 100%;
     }
+
     .contact-form {
       flex: 0 0 100%;
       max-width: 100%;
+
       .form-item {
         margin-bottom: 30px;
         flex: 0 0 100%;
         max-width: 100%;
+
         textarea.form-control {
           height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:300px) {
+  // portofolio
+  .portofolio {
+    .portofolio-item {
+      .portofolio-item-inner {
+        .portofolio-img {
+          .view {
+            h6 {
+              font-size: 16px;
+            }
+          }
         }
       }
     }
