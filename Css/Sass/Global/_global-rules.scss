@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.hidden {
+  display: none !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Poppins" sans-serif;
+}
+
+html {
+  scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
+}
+
+::selection{
+  color: #fff;
+  background-color: var(--skin-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right , rgb(218, 208, 208), #eb1233);
+  border-radius: 5px;
+  height: 300px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to left , #333, #ec1839);
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+// All Sections
+.section {
+  background: var(--bg-black-900);
+  min-height: 100vh;
+  display: block;
+  padding: 0 30px;
+  opacity: 1;
+  .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+  margin-top: -20px;
+
+  h2 {
+    font-size: 40px;
+    color: var(--text-black-900);
+    font-weight: bold;
+    position: relative;
+    &::before {
+      content: "";
+      height: 4px;
+      width: 50px;
+      background-color: var(--skin-color);
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    &::after {
+      content: "";
+      height: 4px;
+      width: 25px;
+      background-color: var(--skin-color);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      margin-top: 8px;
+    }
+  }
+}
+
+.main-content {
+  padding-left: 270px;
+}
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+    color: #fff;
+  }
+}

@@ -1,0 +1,46 @@
+// About
+.about {
+  .about-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    .about-text {
+      flex: 0 0 100%;
+      max-width: 100%;
+      h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: var(--text-black-900);
+        span {
+          color: var(--skin-color);
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        color: var(--text-black-700);
+      }
+    }
+    .personal-info {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 40px;
+      .info-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        p {
+          font-weight: 700;
+          padding: 10px 0;
+          font-size: 16px;
+          color: var(--text-black-900);
+          border-bottom: 1px solid var(--bg-black-50);
+          span {
+            font-weight: 400;
+            color: var(--text-black-700);
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+}

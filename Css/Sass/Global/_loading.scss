@@ -1,0 +1,23 @@
+// On Load
+.loader {
+    height: 100vh;
+    width: 98.9vw;
+    background-color: transparent;
+    position: absolute;
+    & > div {
+      height: 60px;
+      width: 60px;
+      border:5px solid var(--text-black-900);
+      border-top-color: var(--skin-color);
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      border-radius: 50%;
+      animation: loading 1s infinite linear;
+    }
+    @keyframes loading {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }

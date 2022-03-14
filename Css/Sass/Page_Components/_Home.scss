@@ -1,0 +1,65 @@
+// Home
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  color: var(--text-black-900);
+  .home-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+    p {
+      margin-top: 30px;
+      margin-bottom: 70px;
+      font-size: 20px;
+      color: var(--text-black-700);
+    }
+  }
+  .hello {
+    font-size: 28px;
+    margin: 15px 0;
+  }
+  .hello span {
+    font-family: "Clicker Script", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--skin-color);
+  }
+  .my-profession {
+    font-size: 30px;
+    margin: 15px 0;
+  }
+  .typing {
+    color: var(--skin-color);
+  }
+  .home-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-top: 10px solid var(--skin-color);
+      border-left: 10px solid var(--skin-color);
+      left: -20px;
+      top: -40px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-bottom: 10px solid var(--skin-color);
+      border-right: 10px solid var(--skin-color);
+      right: -20px;
+      bottom: -40px;
+    }
+    img {
+      margin: auto;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}

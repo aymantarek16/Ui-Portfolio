@@ -1,0 +1,81 @@
+// Portofolio
+
+.portofolio {
+  .container {
+    padding-bottom: 40px;
+  }
+  .portofolio-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+    h2 {
+      color: var(--text-black-900);
+      font-weight: 500;
+    }
+  }
+  .portofolio-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+    .portofolio-item-inner {
+      border: 6px solid var(--bg-black-100);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: all 0.3s;
+      &:hover {
+        border-radius: 200px;
+      }
+      &:hover .portofolio-img .view {
+        opacity: 1;
+      }
+      &:hover .portofolio-img .view h6 {
+        top: 50%;
+        cursor: pointer;
+      }
+      .portofolio-img {
+        position: relative;
+        img {
+          width: 100%;
+          display: block;
+        }
+        .view {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          transition: all 0.3s;
+          opacity: 0;
+          h6 {
+            font-size: 30px;
+            color: #fff;
+            font-weight: 500;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: all .5s;
+          }
+        }
+        .view_burger{
+          background: linear-gradient(to right, #434343, #000000);
+        }
+        .view_coza_store{
+          background: linear-gradient(to top, #E7E9BB, #403B4A);
+        }
+        .view_go_study{
+          background: linear-gradient(to top, #fc6767, #ec008c);
+        }
+        .view_coffe{
+          background: linear-gradient(to top, #414345, #232526);
+        }
+        .view_business{
+          background: linear-gradient(to right,#2c3e50,#bdc3c7);
+        }
+        .view_tast_it{
+          background: linear-gradient(to top, #f5af19, #f12711);
+        }
+      }
+    }
+  }
+}

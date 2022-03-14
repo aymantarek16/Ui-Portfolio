@@ -1,0 +1,149 @@
+@media (max-width:1199px) {
+  .aside {
+    left: -270px;
+  }
+
+  .main-content {
+    padding-left: 0;
+  }
+
+  .about {
+    .about-content {
+      .personal-info {
+        .info-item {
+          p {
+            span {
+              display: block;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width:991px) {
+
+  .home {
+    margin-top: -30px;
+
+    .home-info {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      order: 2;
+    }
+
+    .home-img {
+      flex: 0 0 100%;
+      max-width: 100%;
+      order: 1;
+      margin: 0 auto 30px;
+
+      &::before {
+        height: 50px;
+        width: 50px;
+        left: 20px;
+        top: -20px;
+      }
+
+      &::after {
+        height: 50px;
+        width: 50px;
+        right: 20px;
+        bottom: -20px;
+      }
+
+      img {
+        width: 60%;
+        height: auto !important;
+      }
+    }
+  }
+
+  .skills {
+    .skill-item {
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin-bottom: 60px;
+
+      &:not(.top3Skills) {
+        margin-top: 0 !important;
+      }
+    }
+  }
+
+  .portofolio {
+    .portofolio-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+
+
+@media (max-width:576px) {
+  .skills {
+    .skill-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+
+  .about {
+    .about-content {
+      .about-text {
+        h3 {
+          font-size: 30px;
+          margin-bottom: 20px;
+
+          span {
+            font-size: 22px;
+          }
+        }
+      }
+
+      .personal-info {
+        .info-item {
+          flex: 0 0 100%;
+          max-width: 100%;
+
+          p {
+            span {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .contact {
+    .contact-title {
+      font-size: 22px;
+    }
+    .contact-info-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .contact-form {
+      flex: 0 0 100%;
+      max-width: 100%;
+      .form-item {
+        margin-bottom: 30px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        textarea.form-control {
+          height: 300px;
+        }
+      }
+    }
+  }
+}

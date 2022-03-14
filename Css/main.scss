@@ -1,0 +1,39 @@
+// ======================= Start Sass ======================= //
+
+// ======================= 1- Global Rules Files ======================= //
+
+// Imoport Global Rules
+@import "./Sass/Global/global-rules";
+
+// Import Global Skins
+@import "./Sass/Global/Skins";
+
+// Import Global Lodaing Logo
+@import "./Sass/Global/loading";
+
+// ======================= 2- Page Component Files ======================= //
+
+// Import NavBar
+@import "./Sass/Page_Components/NavBar_Aside";
+
+// Import Home
+@import "./Sass/Page_Components/Home";
+
+// Import About
+@import "./Sass/Page_Components/About";
+
+// Import Skills
+@import "./Sass/Page_Components/Skills";
+
+// Import Portofolio
+@import "./Sass/Page_Components/Portofolio";
+
+// Import Contact
+@import "./Sass/Page_Components/Contact";
+
+// ======================= 3- Responseve Files ======================= //
+
+// Import Resposeve file
+@import "./Sass/Resposeve/for_Resposeve";
+
+// ======================= End Sass ======================= //
