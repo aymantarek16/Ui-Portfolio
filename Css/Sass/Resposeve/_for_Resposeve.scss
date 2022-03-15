@@ -26,8 +26,6 @@
 @media (max-width:991px) {
 
   .home {
-    margin-top: -30px;
-
     .home-info {
       flex: 0 0 100%;
       max-width: 100%;
@@ -39,7 +37,7 @@
       flex: 0 0 100%;
       max-width: 100%;
       order: 1;
-      margin: 0 auto 30px;
+      margin: 20px auto 30px;
 
       &::before {
         height: 50px;

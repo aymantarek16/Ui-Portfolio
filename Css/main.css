@@ -1163,9 +1163,6 @@ ul {
 }
 
 @media (max-width: 991px) {
-  .home {
-    margin-top: -30px;
-  }
   .home .home-info {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -1184,7 +1181,7 @@ ul {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    margin: 0 auto 30px;
+    margin: 20px auto 30px;
   }
   .home .home-img::before {
     height: 50px;
