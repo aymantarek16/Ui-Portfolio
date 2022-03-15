@@ -88,7 +88,8 @@
 
 
 @media (max-width:576px) {
-// About
+
+  // About
   .about {
     .about-content {
       .about-text {
@@ -117,7 +118,7 @@
     }
   }
 
-// Skills
+  // Skills
 
   .skills {
     .skill-item {
@@ -128,7 +129,7 @@
   }
 
 
-// portofolio
+  // portofolio
   .portofolio {
     .portofolio-item {
       .portofolio-item-inner {
@@ -143,7 +144,7 @@
     }
   }
 
-// Contact
+  // Contact
   .contact {
     .contact-title {
       font-size: 22px;
@@ -169,9 +170,16 @@
       }
     }
   }
+
+  .style-switcher {
+    .s-icon {
+      right: 90%;
+    }
+  }
 }
 
 @media (max-width:300px) {
+
   // About
   .about {
     .about-content {
@@ -184,6 +192,7 @@
       }
     }
   }
+
   // portofolio
   .portofolio {
     .portofolio-item {
