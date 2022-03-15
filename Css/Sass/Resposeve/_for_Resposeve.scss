@@ -102,14 +102,13 @@
   .aside {
     left: -270px;
     &.open{
-      // display: none;
     width: 100vw;
     left: 0;
 
     }
     .nav-toggler{
       display: flex;
-      left: 30px;
+
     }
   }
 

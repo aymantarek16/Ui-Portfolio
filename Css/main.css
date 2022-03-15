@@ -421,7 +421,7 @@ ul {
   width: 200px;
   border: 1px solid var(--bg-black-50);
   background: var(--bg-black-100);
-  z-index: 101;
+  z-index: 10000;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -648,6 +648,10 @@ ul {
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 4px;
+}
+
+.about .about-content .personal-info .info-item p span a {
+  color: var(--skin-color);
 }
 
 .skills {
@@ -1316,7 +1320,6 @@ ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    left: 30px;
   }
   .home .typing {
     font-size: 25px;
