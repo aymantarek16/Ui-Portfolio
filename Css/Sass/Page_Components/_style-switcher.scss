@@ -1,7 +1,7 @@
 .style-switcher{
     position: fixed;
     right: 0;
-    top: 60px;
+    top: 65px;
     padding: 15px;
     width: 200px;
     border: 1px solid var(--bg-black-50);
@@ -17,6 +17,7 @@
     }
     .s-icon{
         position: absolute;
+        z-index: 20000;
         height: 40px;
         width: 40px;
         text-align: center;
