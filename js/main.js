@@ -1,8 +1,14 @@
-// Js
-let navbar = document.querySelector(".nav").querySelectorAll("a");
-// _________________________________________________________
+/* ========================== Java Script Code ========================== */
 
-// Jquery
+/* ========================== Typing animation ========================== */
+var typed = new Typed(".typing", {
+  strings: ["Front End", "Web Developer"],
+  typeSpeed: 50,
+  BackSpeed: 60,
+  loop: true,
+});
+
+/* ========================== Jquery Code ========================== */
 
 // Loading Page Befor Load Main Page
 $(window).on("load", function () {
@@ -10,16 +16,10 @@ $(window).on("load", function () {
   $(".content").fadeIn("2000");
 });
 
-
 $(document).ready(function () {
-
-  $(".nav a").click(function (e) { 
-      $(".nav a").removeClass("active");
-      $(this).addClass("active");
+  // Add Active Class On links In NavBar
+  $(".nav a").click(function (e) {
+    $(".nav a").removeClass("active");
+    $(this).addClass("active");
   });
-
-
-  
-
 });
-

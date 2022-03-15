@@ -59,20 +59,20 @@
 
 <ul class="nav">
 <li>
-<a href="#" class="active wow fadeInLeftBig" data-wow-delay="0.2s" id="home"><i
+<a href="#home" class="active wow fadeInLeftBig" data-wow-delay="0.2s"><i
 class="fa fa-home"></i>Home</a>
 </li>
 <li>
-<a href="#" class=" wow fadeInLeftBig" data-wow-delay="0.4s"><i class="fa fa-user" id="about"></i>About</a>
+<a href="#about" class=" wow fadeInLeftBig" data-wow-delay="0.4s"><i class="fa fa-user"></i>About</a>
 </li>
 <li>
-<a href="#" class=" wow fadeInLeftBig" data-wow-delay="0.6s"><i class="fa fa-list"></i>Skills</a>
+<a href="#skills" class=" wow fadeInLeftBig" data-wow-delay="0.6s"><i class="fa fa-list"></i>Skills</a>
 </li>
 <li>
-<a href="#" class=" wow fadeInLeftBig" data-wow-delay="0.8s"><i class="fa fa-briefcase"></i>Portofolio</a>
+<a href="#portofolio" class=" wow fadeInLeftBig" data-wow-delay="0.8s"><i class="fa fa-briefcase"></i>Portofolio</a>
 </li>
 <li>
-<a href="#" class=" wow fadeInLeftBig" data-wow-delay="1s"><i class="fa fa-comments"></i>Contact</a>
+<a href="#contact" class=" wow fadeInLeftBig" data-wow-delay="1s"><i class="fa fa-comments"></i>Contact</a>
 </li>
 </ul>
 
@@ -87,7 +87,7 @@ class="fa fa-home"></i>Home</a>
 <div class="main-content">
 
 <!-- Home Section Start -->
-<section class="home section">
+<section class="home section" id="home">
 <div class="container">
 <div class="row">
     <div class="home-info padd-15">
@@ -95,7 +95,7 @@ class="fa fa-home"></i>Home</a>
             Hello , my name is <span class="name">Ayman Tarek</span>
         </h3>
         <h3 class="my-profession">
-            I' m a <span class="typing">Front End</span>
+            I' m a <span class="typing"></span>
         </h3>
         <p>
             I am a front end developer with one year of experience , create websites in a creative way that matches all user contexts.
@@ -113,7 +113,7 @@ class="fa fa-home"></i>Home</a>
 
 
 <!-- About Section Start -->
-<section class="about section">
+<section class="about section" id="about">
 <div class="container">
 <div class="row">
     <div class="section-title padd-15">
@@ -176,7 +176,7 @@ class="fa fa-home"></i>Home</a>
 
 
 <!-- Skills Section Start -->
-<section class="skills section">
+<section class="skills section" id="skills">
 <div class="container">
 <div class="section-title">
     <h2>Skills</h2>
@@ -348,7 +348,7 @@ class="fa fa-home"></i>Home</a>
 
 
 <!-- Portofolio Section Start -->
-<section class="portofolio section">
+<section class="portofolio section" id="portofolio">
 <div class="container">
 <div class="row">
     <div class="section-title padd-15">
@@ -470,7 +470,7 @@ class="fa fa-home"></i>Home</a>
 
 
 <!-- Contact Section Start -->
-<section class="contact section ">
+<section class="contact section" id="contact">
 
 <div class="container">
 
@@ -658,7 +658,7 @@ class="fa fa-home"></i>Home</a>
 </div>
 
 <div class="day-night s-icon">
-<i class="fas fa-moon"></i>
+<i class="fas"></i>
 </div>
 
 <h4>Theme Colors</h4>
@@ -684,8 +684,10 @@ new WOW().init();
 <!-- Jquery File -->
 <script src="js/jquery-3.6.0.min.js"></script>
 <!-- Js File -->
-<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script> <!--Auto Typing-->
 <script src="js/style_switchir.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 
 </html>
