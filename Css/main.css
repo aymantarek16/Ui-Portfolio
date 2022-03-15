@@ -1324,8 +1324,9 @@ ul {
   .home .typing {
     font-size: 25px;
   }
-  .home button {
-    margin-top: -20px;
+  .home .btn {
+    position: relative;
+    top: -5px;
   }
   .about .about-content .about-text h3 {
     font-size: 30px;
@@ -1342,6 +1343,10 @@ ul {
   }
   .about .about-content .personal-info .info-item p span {
     margin-left: 0;
+  }
+  .about .btn {
+    position: relative;
+    top: -5px;
   }
   .skills .skill-item {
     -webkit-box-flex: 0;

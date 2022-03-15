@@ -117,8 +117,9 @@
     .typing {
       font-size: 25px;
     }
-    button{
-      margin-top: -20px;
+    .btn{
+      position: relative;
+      top: -5px;
     }
   }
 
@@ -148,6 +149,10 @@
           }
         }
       }
+    }
+    .btn{
+      position: relative;
+      top: -5px;
     }
   }
 
