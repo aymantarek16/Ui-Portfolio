@@ -1324,6 +1324,9 @@ ul {
   .home .typing {
     font-size: 25px;
   }
+  .home button {
+    margin-top: -20px;
+  }
   .about .about-content .about-text h3 {
     font-size: 30px;
     margin-bottom: 20px;
