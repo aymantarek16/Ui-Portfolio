@@ -50,14 +50,14 @@
       background: linear-gradient(to left, #f5af19, #f12711);
       animation: html_prog 3s;
 
-      // @keyframes html_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 90%;
-      //   }
-      // }
+      @keyframes html_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 90%;
+        }
+      }
     }
     // Css
     .css_prog {
@@ -71,14 +71,14 @@
       height: 15px;
       animation: css_prog 3s;
 
-      // @keyframes css_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 95%;
-      //   }
-      // }
+      @keyframes css_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 95%;
+        }
+      }
     }
 
     // Js
@@ -86,14 +86,14 @@
       background: linear-gradient(to left, #ee9b00, #fffc00);
       animation: js_prog 3s;
 
-      // @keyframes js_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 60%;
-      //   }
-      // }
+      @keyframes js_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 60%;
+        }
+      }
     }
 
     // Bootstrap
@@ -101,14 +101,14 @@
       background: linear-gradient(to right, #523c85, #673ab7);
       animation: Bootstrap_prog 3s;
 
-      // @keyframes Bootstrap_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 80%;
-      //   }
-      // }
+      @keyframes Bootstrap_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 80%;
+        }
+      }
     }
 
     // jquery
@@ -116,14 +116,14 @@
       background: linear-gradient(to right, royalblue, rgba(0, 0, 0, 0.753));
       animation: Jquery_prog 3s;
 
-      // @keyframes Jquery_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 75%;
-      //   }
-      // }
+      @keyframes Jquery_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 75%;
+        }
+      }
     }
 
     // AJAX
@@ -131,14 +131,14 @@
       background: linear-gradient(to right, #92fe9d, #00c9ff);
       animation: Ajax_prog 3s;
 
-      // @keyframes Ajax_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 65%;
-      //   }
-      // }
+      @keyframes Ajax_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 65%;
+        }
+      }
     }
 
     // Sass
@@ -147,14 +147,14 @@
 
       animation: SASS_prog 3s;
 
-      // @keyframes SASS_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 85%;
-      //   }
-      // }
+      @keyframes SASS_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 85%;
+        }
+      }
     }
 
     // Pugjs
@@ -162,14 +162,14 @@
       background: royalblue;
       animation: Pugjs_prog 3s;
 
-      // @keyframes Pugjs_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 60%;
-      //   }
-      // }
+      @keyframes Pugjs_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 60%;
+        }
+      }
     }
 
     // Gulpjs
@@ -177,14 +177,14 @@
       background: linear-gradient(to right, #ef473a, #cb2d3e);
       animation: Gulpjs_prog 3s;
 
-      // @keyframes Gulpjs_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 90%;
-      //   }
-      // }
+      @keyframes Gulpjs_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 90%;
+        }
+      }
     }
 
     // Jest
@@ -192,14 +192,14 @@
       background: #81203fbe;
       animation: Jest_prog 3s;
 
-      // @keyframes Jest_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 40%;
-      //   }
-      // }
+      @keyframes Jest_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 40%;
+        }
+      }
     }
 
     // React.js
@@ -207,14 +207,14 @@
       background: #36d1dc;
       animation: React_js_prog 3s;
 
-      // @keyframes React_js_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 70%;
-      //   }
-      // }
+      @keyframes React_js_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 70%;
+        }
+      }
     }
 
     // GitHup
@@ -222,14 +222,14 @@
       background: linear-gradient(to top, #434343, #000000);
       animation: GitHup_prog 3s;
 
-      // @keyframes GitHup_prog {
-      //   0% {
-      //     width: 0%;
-      //   }
-      //   100% {
-      //     width: 90%;
-      //   }
-      // }
+      @keyframes GitHup_prog {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 90%;
+        }
+      }
     }
   }
 }

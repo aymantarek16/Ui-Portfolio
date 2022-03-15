@@ -42,7 +42,7 @@ function showSection(elem){
    document.querySelector("#"+ target).classList.add("active")
 }
 
-const navTogglerBtn = document.querySelector(".nav-toggler") , 
+const navTogglerBtn = document.querySelector(".nav-toggler"), 
       aside = document.querySelector(".aside")
       navTogglerBtn.addEventListener("click" , () =>{
         asideSectionTogglerBtn()
@@ -53,9 +53,10 @@ const navTogglerBtn = document.querySelector(".nav-toggler") ,
         navTogglerBtn.classList.toggle("open")
         for (let i = 0; i < allSection.length; i++) {
           allSection[i].classList.toggle("open")
-          
         }
       }
+
+      /* ========================== Add Wow Animation ========================== */
 
 /* ========================== Jquery Code ========================== */
 

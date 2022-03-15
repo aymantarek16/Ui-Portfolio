@@ -726,6 +726,24 @@ ul {
           animation: html_prog 3s;
 }
 
+@-webkit-keyframes html_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes html_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
 .skills .skill-item .css_prog {
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(13%, #430979), to(#09d4ff));
   background: linear-gradient(90deg, #020024 0%, #430979 13%, #09d4ff 100%);
@@ -735,11 +753,47 @@ ul {
           animation: css_prog 3s;
 }
 
+@-webkit-keyframes css_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes css_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
 .skills .skill-item .js_prog {
   background: -webkit-gradient(linear, right top, left top, from(#ee9b00), to(#fffc00));
   background: linear-gradient(to left, #ee9b00, #fffc00);
   -webkit-animation: js_prog 3s;
           animation: js_prog 3s;
+}
+
+@-webkit-keyframes js_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes js_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
 }
 
 .skills .skill-item .Bootstrap_prog {
@@ -749,11 +803,47 @@ ul {
           animation: Bootstrap_prog 3s;
 }
 
+@-webkit-keyframes Bootstrap_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes Bootstrap_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
 .skills .skill-item .Jquery_prog {
   background: -webkit-gradient(linear, left top, right top, from(royalblue), to(rgba(0, 0, 0, 0.753)));
   background: linear-gradient(to right, royalblue, rgba(0, 0, 0, 0.753));
   -webkit-animation: Jquery_prog 3s;
           animation: Jquery_prog 3s;
+}
+
+@-webkit-keyframes Jquery_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes Jquery_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
 }
 
 .skills .skill-item .Ajax_prog {
@@ -763,6 +853,24 @@ ul {
           animation: Ajax_prog 3s;
 }
 
+@-webkit-keyframes Ajax_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes Ajax_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
 .skills .skill-item .SASS_prog {
   background: -webkit-gradient(linear, left top, right top, from(#f15f79), to(#b24592));
   background: linear-gradient(to right, #f15f79, #b24592);
@@ -770,10 +878,46 @@ ul {
           animation: SASS_prog 3s;
 }
 
+@-webkit-keyframes SASS_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes SASS_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
 .skills .skill-item .Pugjs_prog {
   background: royalblue;
   -webkit-animation: Pugjs_prog 3s;
           animation: Pugjs_prog 3s;
+}
+
+@-webkit-keyframes Pugjs_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes Pugjs_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
 }
 
 .skills .skill-item .Gulpjs_prog {
@@ -783,10 +927,46 @@ ul {
           animation: Gulpjs_prog 3s;
 }
 
+@-webkit-keyframes Gulpjs_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes Gulpjs_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
 .skills .skill-item .Jest_prog {
   background: #81203fbe;
   -webkit-animation: Jest_prog 3s;
           animation: Jest_prog 3s;
+}
+
+@-webkit-keyframes Jest_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+@keyframes Jest_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
 }
 
 .skills .skill-item .React_js_prog {
@@ -795,11 +975,47 @@ ul {
           animation: React_js_prog 3s;
 }
 
+@-webkit-keyframes React_js_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes React_js_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
 .skills .skill-item .GitHup_prog {
   background: -webkit-gradient(linear, left bottom, left top, from(#434343), to(#000000));
   background: linear-gradient(to top, #434343, #000000);
   -webkit-animation: GitHup_prog 3s;
           animation: GitHup_prog 3s;
+}
+
+@-webkit-keyframes GitHup_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes GitHup_prog {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
 }
 
 .portofolio .container {
