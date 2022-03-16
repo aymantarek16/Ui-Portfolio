@@ -1062,7 +1062,7 @@ ul {
   }
 }
 
-@media (min-width: 0) and (max-width: 1300px) {
+@media (min-width: 580px) and (max-width: 700px) {
   .aside {
     left: -270px !important;
     display: -webkit-box !important;
@@ -1085,7 +1085,7 @@ ul {
     left: 0 !important;
   }
   .aside .nav-toggler.open {
-    left: 570px !important;
+    left: 570px;
   }
 }
 
