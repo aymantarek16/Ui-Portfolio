@@ -87,6 +87,7 @@ ul {
   z-index: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  transition: all 0.4s linear;
   &.back-section{
     z-index: 1;
   }
