@@ -1062,7 +1062,7 @@ ul {
   }
 }
 
-@media (min-width: 580px) and (max-width: 1500px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .aside {
     left: -270px;
     display: -webkit-box;
