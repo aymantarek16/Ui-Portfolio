@@ -1201,8 +1201,7 @@ ul {
     left: 320px;
   }
   .home .typing {
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 25px;
   }
   .home .btn {
     position: relative;
@@ -1219,6 +1218,10 @@ ul {
 @media (max-width: 360px) {
   .aside .nav-toggler.open {
     left: 300px;
+  }
+  .home .typing {
+    font-size: 17px;
+    font-weight: bold;
   }
 }
 

@@ -311,8 +311,7 @@
   // Home
   .home {
     .typing {
-      font-size: 17px;
-      font-weight: bold;
+      font-size: 25px;
     }
 
     .btn {
@@ -360,6 +359,14 @@
       }
     }
   }
+
+    // Home
+    .home {
+      .typing {
+        font-size: 17px;
+        font-weight: bold;
+      }
+    }
 }
 @media (max-width:330px) {
 
