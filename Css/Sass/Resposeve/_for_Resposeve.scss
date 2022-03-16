@@ -103,31 +103,31 @@
 }
 
 // Land Scape Screen
-@media (min-width:590px) and (max-width:730px) {
+@media (min-width:0) and (max-width:1300px) {
 
   // Aside
   .aside {
-    left: -270px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    left: -270px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
 
     .logo {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+      position: relative !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
 
     }
 
     &.open {
-      width: 100vw;
-      left: 0;
+      width: 100vw !important;
+      left: 0 !important;
 
     }
 
     .nav-toggler {
       &.open {
-        left: 570px;
+        left: 570px !important;
       }
 
     }
