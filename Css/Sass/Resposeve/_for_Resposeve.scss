@@ -103,7 +103,7 @@
 }
 
 // Land Scape Screen
-@media (min-width:700px) and (max-width:720px) {
+@media (min-width:600px) and (max-width:750px) {
 
   // Aside
   .aside {
@@ -126,7 +126,7 @@
 
     .nav-toggler {
       &.open {
-        left: 720px;
+        left: 700px;
       }
 
     }
