@@ -102,36 +102,6 @@
   }
 }
 
-// Land Scape Screen
-@media (min-width:600px) and (max-width:765px) {
-
-  // Aside
-  .aside {
-    left: -270px ;
-    display: flex ;
-    justify-content: space-around ;
-    align-items: flex-start ;
-
-    .logo {
-      position: relative ;
-      top: 50% ;
-
-    }
-
-    &.open {
-      width: 100vw;
-      left: 0 ;
-
-    }
-
-    .nav-toggler {
-      &.open {
-        left: 670px;
-      }
-
-    }
-  }
-}
 
 @media (max-width:576px) {
 

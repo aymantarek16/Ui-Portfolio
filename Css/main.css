@@ -1062,31 +1062,6 @@ ul {
   }
 }
 
-@media (min-width: 600px) and (max-width: 750px) {
-  .aside {
-    left: -270px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .aside .logo {
-    position: relative;
-    top: 50%;
-  }
-  .aside.open {
-    width: 100vw;
-    left: 0;
-  }
-  .aside .nav-toggler.open {
-    left: 670px;
-  }
-}
-
 @media (max-width: 576px) {
   .aside {
     left: -270px;
