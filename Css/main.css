@@ -703,8 +703,8 @@ ul {
 .skills .skill-item .progress .progress-bar {
   border-radius: 30px;
   height: 15px;
-  -webkit-transition: all 3s ease-in-out;
-  transition: all 3s ease-in-out;
+  -webkit-transition: width 3s linear;
+  transition: width 3s linear;
 }
 
 .skills .skill-item span {

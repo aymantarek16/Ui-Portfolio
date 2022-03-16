@@ -42,7 +42,7 @@
       .progress-bar {
         border-radius: 30px;
         height: 15px;
-        transition: all 3s ease-in-out;
+        transition: width 3s linear;
       }
     }
 
