@@ -1,20 +1,25 @@
 @media (max-width:1199px) {
-  html{
+  html {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
   }
-  .section{
+
+  .section {
     left: 0;
-    &.open{
+
+    &.open {
       left: 270px;
     }
-    .container{
+
+    .container {
       padding-top: 70px;
     }
   }
+
   .aside {
     left: -270px;
-    .nav-toggler{
+
+    .nav-toggler {
       display: flex;
       left: 30px;
     }
@@ -73,6 +78,7 @@
       }
     }
   }
+
   // Skills
   .skills {
     .skill-item {
@@ -94,19 +100,50 @@
     }
   }
 }
-
-
-
-@media (max-width:576px) {
+// Land Scape Screen
+@media (min-width:630px) and (max-width:650px) {
   // Aside
   .aside {
     left: -270px;
-    &.open{
-    width: 100vw;
-    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    .logo{
+      // display: none;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
 
     }
-    .nav-toggler{
+
+    &.open {
+      width: 100vw;
+      left: 0;
+
+    }
+
+    .nav-toggler {
+      &.open{
+        left: 570px;
+      }
+
+    }
+  }
+}
+
+@media (max-width:576px) {
+
+  // Aside
+  .aside {
+    left: -270px;
+
+    &.open {
+      width: 100vw;
+      left: 0;
+
+    }
+
+    .nav-toggler {
       display: flex;
 
     }
@@ -117,9 +154,10 @@
     .typing {
       font-size: 25px;
     }
-    .btn{
+
+    .btn {
       position: relative;
-      top: -5px;
+      top: -7px;
     }
   }
 
@@ -150,7 +188,8 @@
         }
       }
     }
-    .btn{
+
+    .btn {
       position: relative;
       top: -5px;
     }
@@ -210,7 +249,77 @@
   }
 }
 
-@media (max-width:300px) {
+
+@media (max-width:550px) {
+
+  // Aside
+  .aside {
+    left: -270px;
+
+    &.open {
+      width: 100vw;
+      left: 0;
+
+    }
+
+    .nav-toggler {
+      display: flex;
+      &.open{
+        left: 400px;
+      }
+
+    }
+  }
+
+}
+
+@media (max-width:450px) {
+
+  // Aside
+  .aside {
+    .nav-toggler {
+      &.open {
+        left: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width:420px) {
+
+  // Aside
+  .aside {
+    .nav-toggler {
+      &.open {
+        left: 345px;
+      }
+    }
+  }
+}
+
+@media (max-width:394px) {
+
+  // Aside
+  .aside {
+    .nav-toggler {
+      &.open {
+        left: 320px;
+      }
+    }
+  }
+
+  // Home
+  .home {
+    .typing {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .btn {
+      position: relative;
+      top: -30px;
+    }
+  }
 
   // About
   .about {
@@ -236,6 +345,44 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width:360px) {
+
+  // Aside
+  .aside {
+    .nav-toggler {
+      &.open {
+        left: 300px;
+      }
+    }
+  }
+}
+@media (max-width:330px) {
+
+  // Aside
+  .aside {
+    .nav-toggler {
+      &.open {
+        left: 260px;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width:290px) {
+
+  // Aside
+  .aside {
+    .nav-toggler {
+      &.open {
+        left: 220px;
+        top: 3px;
       }
     }
   }
