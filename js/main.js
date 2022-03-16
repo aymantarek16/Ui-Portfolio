@@ -16,15 +16,11 @@ const nav = document.querySelector(".nav"),
 for (let i = 0; i < navList.length; i++) {
   const a = navList[i].querySelector("a");
   a.addEventListener("click", function () {
-
-      removeBackSection();
-
-
+    removeBackSection();
 
     for (let j = 0; j < navList.length; j++) {
-
       if (navList[j].querySelector("a").classList.contains("active")) {
-        addBackSection(j)
+        addBackSection(j);
       }
       navList[j].querySelector("a").classList.remove("active");
     }
@@ -33,16 +29,16 @@ for (let i = 0; i < navList.length; i++) {
     if (window.innerWidth < 1200) {
       asideSectionTogglerBtn();
     }
+    stopProgAnimate()
   });
 }
-function removeBackSection(){
+function removeBackSection() {
   for (let i = 0; i < allSection.length; i++) {
-
     allSection[i].classList.remove("back-section");
   }
 }
-function addBackSection(num){
-  allSection[num].classList.add("back-section")
+function addBackSection(num) {
+  allSection[num].classList.add("back-section");
 }
 function showSection(element) {
   for (let i = 0; i < allSection.length; i++) {
@@ -55,17 +51,20 @@ function updateNav(element) {
   for (let i = 0; i < navList.length; i++) {
     navList[i].querySelector("a").classList.remove("active");
     const target = element.getAttribute("href").split("#")[1];
-    if (target === navList[i].querySelector('a').getAttribute("href").split('#')[1]) {
-      navList[i].querySelector("a").classList.add("active")
+    if (
+      target ===
+      navList[i].querySelector("a").getAttribute("href").split("#")[1]
+    ) {
+      navList[i].querySelector("a").classList.add("active");
     }
   }
 }
 document.querySelector(".hire-me").addEventListener("click", function () {
-  const sectionIndex = this.getAttribute("data-section-index")
+  const sectionIndex = this.getAttribute("data-section-index");
   showSection(this);
   updateNav(this);
-  removeBackSection()
-  addBackSection(sectionIndex)
+  removeBackSection();
+  addBackSection(sectionIndex);
 });
 const navTogglerBtn = document.querySelector(".nav-toggler"),
   aside = document.querySelector(".aside");
@@ -81,12 +80,32 @@ function asideSectionTogglerBtn() {
   }
 }
 
-/* ========================== Add Wow Animation ========================== */
+/* ========================== Add Progress Animation ========================== */
+
+let skillsLink = document.querySelector(".sk");
+let progress = document.querySelectorAll(".progress-bar");
+
+skillsLink.addEventListener("click", () => {
+  openProgAnimat();
+});
+
+function openProgAnimat() {
+  progress.forEach((eo) => {
+    eo.style.width = eo.dataset.width;
+
+  });
+}
+
+function stopProgAnimate(){
+  progress.forEach((eo) => {
+    eo.style.width =  "0";
+  });
+}
 
 /* ========================== Jquery Code ========================== */
 
 // Loading Page Befor Load Main Page
-// $(window).on("load", function () {
-//   $(".loader").fadeOut("2000");
-//   $(".content").fadeIn("2000");
-// });
+$(window).on("load", function () {
+  $(".loader").fadeOut("2000");
+  $(".content").fadeIn("2000");
+});
