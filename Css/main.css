@@ -15,10 +15,6 @@ body.dark {
   --text-black-700: #e9e9e9;
 }
 
-.hidden {
-  display: none !important;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -210,42 +206,6 @@ ul {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   color: #fff;
-}
-
-.loader {
-  height: 100vh;
-  width: 100vw;
-  background-color: #ddd;
-  position: absolute;
-  z-index: 1000;
-  overflow: hidden;
-}
-
-.loader > div {
-  height: 60px;
-  width: 60px;
-  border: 5px solid var(--text-black-900);
-  border-top-color: var(--skin-color);
-  position: absolute;
-  inset: 0;
-  margin: auto;
-  border-radius: 50%;
-  -webkit-animation: loading 1s infinite linear;
-          animation: loading 1s infinite linear;
-}
-
-@-webkit-keyframes loading {
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes loading {
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
 }
 
 .aside {
