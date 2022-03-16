@@ -43,6 +43,7 @@
 }
 
 @media (max-width:991px) {
+
   // Home
   .home {
     .home-info {
@@ -100,16 +101,18 @@
     }
   }
 }
+
 // Land Scape Screen
-@media (min-width:630px) and (max-width:650px) {
+@media (min-width:600px) and (max-width:700px) {
+
   // Aside
   .aside {
     left: -270px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    .logo{
-      // display: none;
+
+    .logo {
       position: relative;
       top: 50%;
       transform: translateY(-50%);
@@ -123,7 +126,7 @@
     }
 
     .nav-toggler {
-      &.open{
+      &.open {
         left: 570px;
       }
 
@@ -264,7 +267,8 @@
 
     .nav-toggler {
       display: flex;
-      &.open{
+
+      &.open {
         left: 400px;
       }
 
@@ -360,14 +364,15 @@
     }
   }
 
-    // Home
-    .home {
-      .typing {
-        font-size: 17px;
-        font-weight: bold;
-      }
+  // Home
+  .home {
+    .typing {
+      font-size: 17px;
+      font-weight: bold;
     }
+  }
 }
+
 @media (max-width:330px) {
 
   // Aside
