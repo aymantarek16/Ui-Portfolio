@@ -13,14 +13,17 @@
   align-items: center;
   z-index: 10;
   transition: all .4s ease;
-  &.open{
+
+  &.open {
     left: 0;
   }
+
   .logo {
     position: absolute;
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
+
     a {
       color: var(--text-black-900);
       font-weight: 700;
@@ -28,6 +31,7 @@
       font-size: 30px;
       letter-spacing: 5px;
       position: relative;
+
       &::before {
         content: "";
         position: absolute;
@@ -38,6 +42,7 @@
         bottom: -10px;
         left: -10px;
       }
+
       &::after {
         content: "";
         position: absolute;
@@ -48,6 +53,7 @@
         top: 0;
         right: 0;
       }
+
       span {
         font-family: "Clicker Script", cursive;
         font-size: 45px;
@@ -57,6 +63,7 @@
       }
     }
   }
+
   .nav-toggler {
     height: 40px;
     width: 50px;
@@ -71,20 +78,25 @@
     justify-content: center;
     display: none;
     transition: all .4s ease;
-    &.open{
+
+    &.open {
       left: 300px;
-      span{
-        background-color: transparent;  
-        &::before{
+
+      span {
+        background-color: transparent;
+
+        &::before {
           transform: rotate(45deg);
           top: 0;
         }
-        &::after{
+
+        &::after {
           transform: rotate(-45deg);
           top: 0;
         }
       }
     }
+
     span {
       height: 2px;
       width: 18px;
@@ -93,6 +105,7 @@
       position: relative;
       transition: all .2s ease;
       left: 0;
+
       &::before {
         content: "";
         height: 2px;
@@ -101,6 +114,7 @@
         position: absolute;
         top: -6px;
       }
+
       &::after {
         content: "";
         height: 2px;
@@ -112,10 +126,12 @@
       }
     }
   }
+
   .nav {
     li {
       margin-bottom: 25px;
       display: block;
+
       a {
         font-size: 16px;
         font-weight: 600;
@@ -123,9 +139,11 @@
         border-bottom: 1px solid var(--bg-black-50);
         color: var(--text-black-900);
         padding: 5px 15px;
+
         &.active {
           color: var(--skin-color);
         }
+
         i {
           margin-right: 15px;
         }
