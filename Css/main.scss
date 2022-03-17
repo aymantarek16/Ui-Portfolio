@@ -37,13 +37,3 @@
 @import "./Sass/Resposeve/for_Resposeve";
 
 // ======================= End Sass ======================= //
-
-
-.bar
-  width: 10px
-  float: left
-  background: red
-    
-@for $i from 1 through 50
-  .bar:nth-child(#{$i})
-    height: random(200) + px

@@ -1071,6 +1071,12 @@ ul {
   }
 }
 
+@media (min-width: 620px) and (max-width: 690px) {
+  .aside ul {
+    margin-top: 250px;
+  }
+}
+
 @media (max-width: 576px) {
   .aside {
     left: -270px;

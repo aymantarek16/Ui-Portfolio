@@ -114,6 +114,14 @@
   }
 }
 
+@media (min-width:620px) and (max-width:690px) {
+   // Aside
+   .aside {
+    ul{
+      margin-top: 250px;
+    }
+  }
+}
 
 @media (max-width:576px) {
 
