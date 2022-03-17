@@ -990,7 +990,6 @@ ul {
   }
   .aside {
     left: -270px;
-    overflow-y: scroll !important;
   }
   .aside ul {
     margin-top: 200px;
@@ -1008,8 +1007,12 @@ ul {
 }
 
 @media (max-width: 991px) {
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
   .aside {
     overflow-y: scroll !important;
+    overflow-x: hidden !important;
   }
   .aside ul {
     margin-top: 200px;

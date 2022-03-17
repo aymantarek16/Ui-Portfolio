@@ -16,7 +16,6 @@
   // Aside
   .aside {
     left: -270px;
-    overflow-y: scroll !important;
     ul{
       margin-top: 200px;
     }
@@ -44,9 +43,13 @@
 }
 
 @media (max-width:991px) {
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
   // Aside
   .aside {
     overflow-y: scroll !important;
+    overflow-x: hidden !important;
     ul{
       margin-top: 200px;
     }
