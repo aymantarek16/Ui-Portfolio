@@ -881,6 +881,11 @@ ul {
   background: linear-gradient(to top, #f5af19, #f12711);
 }
 
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_todolist {
+  background: -webkit-gradient(linear, right top, left top, from(#38ef7d), to(#11998e));
+  background: linear-gradient(to left, #38ef7d, #11998e);
+}
+
 .contact .contact-title {
   color: var(--skin-color);
   text-align: center;
