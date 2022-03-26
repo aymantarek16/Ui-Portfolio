@@ -631,8 +631,8 @@ ul {
 .home .mousemove span:hover::before {
   -webkit-transition: 0s;
   transition: 0s;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
 }
 
 .about .about-content {
