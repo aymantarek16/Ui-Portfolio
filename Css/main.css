@@ -584,6 +584,57 @@ ul {
   max-width: 100%;
 }
 
+.home .mousemove {
+  position: absolute;
+  width: 100%;
+  margin-left: -30px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: transparent;
+  overflow: hidden;
+}
+
+.home .mousemove span {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.home .mousemove span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: var(--skin-color);
+  -webkit-box-shadow: 0 0 10px var(--skin-color), 0 0 20px var(--skin-color), 0 0 40px var(--skin-color), 0 0 60px var(--skin-color), 0 0 80px var(--skin-color), 0 0 100px var(--skin-color);
+          box-shadow: 0 0 10px var(--skin-color), 0 0 20px var(--skin-color), 0 0 40px var(--skin-color), 0 0 60px var(--skin-color), 0 0 80px var(--skin-color), 0 0 100px var(--skin-color);
+  border-radius: 50%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.home .mousemove span:hover::before {
+  -webkit-transition: 0s;
+  transition: 0s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .about .about-content {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
@@ -1005,6 +1056,9 @@ ul {
     display: -ms-flexbox;
     display: flex;
     left: 30px;
+  }
+  .home .mousemove {
+    display: none;
   }
   .about .about-content .personal-info .info-item p span {
     display: block;
