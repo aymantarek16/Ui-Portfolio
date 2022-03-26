@@ -1,12 +1,19 @@
 // ======================== Style Switcher ======================== //
-const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
-styleSwitcherToggle.addEventListener("click", () => {
-  document.querySelector(".style-switcher").classList.toggle("open");
+const iconSwitch = document.querySelector(".style-switcher-toggler");
+let styleSwitcher = document.querySelector(".style-switcher")
+
+
+iconSwitch.addEventListener("click", () => {
+  styleSwitcher.classList.toggle("open");
 }),
-  window.addEventListener("scroll", () => {
-    document.querySelector(".style-switcher").classList.contains("open") &&
-      document.querySelector(".style-switcher").classList.remove("open");
+
+  document.addEventListener("keydown", function (e) {
+    if ( e.keyCode == 27) {
+      styleSwitcher.classList.remove("open");
+
+    }
   });
+  
 // ======================== Theme Color Switcher ======================== //
 
 const alternateStyels = document.querySelectorAll(".alternate-style"),
