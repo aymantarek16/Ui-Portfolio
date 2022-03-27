@@ -8,6 +8,8 @@
     flex: 0 0 33.33%;
     max-width: 33.33%;
 
+
+
     &:not(.top3Skills) {
       margin-top: 60px;
     }
@@ -30,29 +32,27 @@
       h2 {
         font-size: 18px;
         color: var(--text-black-700);
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 0;
+        font-style: italic;
       }
     }
 
     .progress {
       background-color: #ddd;
-      border-radius: 30px;
+      border-radius: 20px;
+      height: 7px;
+      margin-top: 20px;
+
+
 
       .progress-bar {
-        border-radius: 30px;
-        height: 15px;
-        transition: width 3s linear;
+        border-radius: 20px;
+        height: 7px;
+        transition: width 2.5s linear;
       }
     }
 
-    span {
-      text-align: end;
-      margin-right: 10px;
-      font-size: 16px;
-      font-weight: 700;
-      font-family: "Poppins";
-    }
 
     // Html
     .html_prog {

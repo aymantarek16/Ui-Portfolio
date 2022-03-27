@@ -742,28 +742,23 @@ ul {
 .skills .skill-item .flex h2 {
   font-size: 18px;
   color: var(--text-black-700);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0;
+  font-style: italic;
 }
 
 .skills .skill-item .progress {
   background-color: #ddd;
-  border-radius: 30px;
+  border-radius: 20px;
+  height: 7px;
+  margin-top: 20px;
 }
 
 .skills .skill-item .progress .progress-bar {
-  border-radius: 30px;
-  height: 15px;
-  -webkit-transition: width 3s linear;
-  transition: width 3s linear;
-}
-
-.skills .skill-item span {
-  text-align: end;
-  margin-right: 10px;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "Poppins";
+  border-radius: 20px;
+  height: 7px;
+  -webkit-transition: width 2.5s linear;
+  transition: width 2.5s linear;
 }
 
 .skills .skill-item .html_prog {
