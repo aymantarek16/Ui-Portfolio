@@ -833,6 +833,7 @@ ul {
 .portofolio .portofolio-heading h2 {
   color: var(--text-black-900);
   font-weight: 500;
+  font-size: 28px;
 }
 
 .portofolio .portofolio-item {
