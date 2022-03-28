@@ -62,7 +62,7 @@ const themeColor = document.querySelector(".theme-color")
 
 
        let metaLightMode = () => { 
-        themeColor.setAttribute("content", "#fdf9ff");
+        themeColor.setAttribute("content", "#f2f2fc");
          
         }
 
