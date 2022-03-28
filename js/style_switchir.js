@@ -28,7 +28,6 @@ const alternateStyels = document.querySelectorAll(".alternate-style"),
 
 dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
-  metaLightMode()
 
   dayNight.querySelector("i").classList.toggle("fa-sun"),
     dayNight.querySelector("i").classList.toggle("fa-moon"),
@@ -41,6 +40,7 @@ dayNight.addEventListener("click", () => {
 
   } else {
     imgHome.src = "img/Ayman Light.png";
+    metaLightMode()
   }
 });
 
