@@ -28,6 +28,8 @@ const alternateStyels = document.querySelectorAll(".alternate-style"),
 
 dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
+  metaLightMode()
+
   dayNight.querySelector("i").classList.toggle("fa-sun"),
     dayNight.querySelector("i").classList.toggle("fa-moon"),
     document.body.classList.toggle("dark");
@@ -35,6 +37,8 @@ dayNight.addEventListener("click", () => {
   let imgHome = document.querySelector(".home img");
   if (dayNight.querySelector("i").classList.contains("fa-sun")) {
     imgHome.src = "img/Ayman Night.png";
+    metaDarkMode()
+
   } else {
     imgHome.src = "img/Ayman Light.png";
   }
@@ -45,3 +49,21 @@ window.addEventListener("load", () => {
     ? dayNight.querySelector("i").classList.add("fa-sun") 
     : dayNight.querySelector("i").classList.add("fa-moon");
 });
+
+// ======================== theme-color ======================== //
+
+const themeColor = document.querySelector(".theme-color")
+
+      let metaDarkMode = () => { 
+       themeColor.removeAttribute("content")
+       themeColor.setAttribute("content", "#222222");
+        
+       }
+
+
+       let metaLightMode = () => { 
+        themeColor.setAttribute("content", "#e8dfec");
+         
+        }
+
+
