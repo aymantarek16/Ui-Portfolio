@@ -56,7 +56,7 @@ const themeColor = document.querySelector(".theme-color")
 
       let metaDarkMode = () => { 
        themeColor.removeAttribute("content")
-       themeColor.setAttribute("content", "#222222");
+       themeColor.setAttribute("content", "#151515");
         
        }
 
