@@ -63,41 +63,5 @@
       max-width: 100%;
     }
   }
-  .mousemove{
-    position: absolute;
-    width: 100%;
-    margin-left: -30px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background: transparent;
-    overflow: hidden;
-    span{
-      position: relative;
-      display: block;
-      width: 40px;
-      height: 40px;
-      &::before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 200%;
-        height: 200%;
-        background: var(--skin-color);
-        box-shadow: 0 0 10px var(--skin-color), 0 0 20px var(--skin-color), 0 0 40px var(--skin-color),
-          0 0 60px var(--skin-color), 0 0 80px var(--skin-color), 0 0 100px var(--skin-color);
-        border-radius: 50%;
-        transition: 2s;
-        transform: scale(0);
-      }
-      &:hover::before{
-        transition: 0s;
-        transform: scale(0.1);
-      }
-    }
-  }
 }
 
