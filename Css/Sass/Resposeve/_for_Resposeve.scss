@@ -16,17 +16,20 @@
   // Aside
   .aside {
     left: -270px;
-    ul{
+
+    ul {
       margin-top: 200px;
     }
+
     .nav-toggler {
       display: flex;
       left: 30px;
     }
   }
+
   // Home
-  .home{
-    .mousemove{
+  .home {
+    .mousemove {
       display: none;
     }
   }
@@ -48,363 +51,368 @@
   }
 }
 
-@media (max-width:991px) {
-  // Bg_Scrollbar_Track
-  ::-webkit-scrollbar-track {
-    background: #fff;
-  }
-  // Aside
-  .aside {
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
-    ul{
-      margin-top: 200px;
-    }
-  }
+  @media (max-width:991px) {
 
-  // Home
-  .home {
-    .home-info {
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin: 0 auto;
-      order: 2;
+    // Bg_Scrollbar_Track
+    ::-webkit-scrollbar-track {
+      background: #fff;
     }
 
-    .home-img {
-      flex: 0 0 100%;
-      max-width: 100%;
-      order: 1;
-      margin: 20px auto 30px;
+    // Aside
+    .aside {
+      overflow-y: scroll !important;
+      overflow-x: hidden !important;
 
-      &::before {
-        height: 50px;
-        width: 50px;
-        left: 20px;
-        top: -20px;
-      }
-
-      &::after {
-        height: 50px;
-        width: 50px;
-        right: 20px;
-        bottom: -20px;
-      }
-
-      img {
-        width: 60%;
-        height: auto !important;
+      ul {
+        margin-top: 200px;
       }
     }
-  }
 
-  // Skills
-  .skills {
-    .skill-item {
-      flex: 0 0 50%;
-      max-width: 50%;
-      margin-bottom: 60px;
+    // Home
+    .home {
+      .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        order: 2;
+      }
 
-      &:not(.top3Skills) {
-        margin-top: 0 !important;
+      .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 1;
+        margin: 20px auto 30px;
+
+        &::before {
+          height: 50px;
+          width: 50px;
+          left: 20px;
+          top: -20px;
+        }
+
+        &::after {
+          height: 50px;
+          width: 50px;
+          right: 20px;
+          bottom: -20px;
+        }
+
+        img {
+          width: 60%;
+          height: auto !important;
+        }
+      }
+    }
+
+    // Skills
+    .skills {
+      .skill-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 60px;
+
+        &:not(.top3Skills) {
+          margin-top: 0 !important;
+        }
+      }
+    }
+
+    // Portofolio
+    .portofolio {
+      .portofolio-item {
+        flex: 0 0 100%;
+        max-width: 100%;
       }
     }
   }
 
-  // Portofolio
-  .portofolio {
-    .portofolio-item {
-      flex: 0 0 100%;
-      max-width: 100%;
+  @media (min-width:620px) and (max-width:690px) {
+
+    // Aside
+    .aside {
+      ul {
+        margin-top: 250px;
+      }
     }
   }
-}
 
-@media (min-width:620px) and (max-width:690px) {
-   // Aside
-   .aside {
-    ul{
-      margin-top: 250px;
-    }
-  }
-}
+  @media (max-width:576px) {
 
-@media (max-width:576px) {
+    // Aside
+    .aside {
+      left: -270px;
 
-  // Aside
-  .aside {
-    left: -270px;
-      ul{
+      ul {
         margin-top: 250px;
       }
 
-    &.open {
-      width: 100vw;
-      left: 0;
+      &.open {
+        width: 100vw;
+        left: 0;
 
-    }
-
-    .nav-toggler {
-      display: flex;
-
-    }
-  }
-
-  // Home
-  .home {
-    .typing {
-      font-size: 25px;
-    }
-
-    .btn {
-      position: relative;
-      top: -7px;
-    }
-  }
-
-  // About
-  .about {
-    .about-content {
-      .about-text {
-        h3 {
-          font-size: 30px;
-          margin-bottom: 20px;
-
-          span {
-            font-size: 22px;
-          }
-        }
       }
 
-      .personal-info {
-        .info-item {
-          flex: 0 0 100%;
-          max-width: 100%;
+      .nav-toggler {
+        display: flex;
 
-          p {
-            font-size: 18px;
-            font-weight: bold;
+      }
+    }
+
+    // Home
+    .home {
+      .typing {
+        font-size: 25px;
+      }
+
+      .btn {
+        position: relative;
+        top: -7px;
+      }
+    }
+
+    // About
+    .about {
+      .about-content {
+        .about-text {
+          h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
 
             span {
-              margin-left: 0;
-              font-size: 16px;
-              font-weight: 600;
+              font-size: 22px;
+            }
+          }
+        }
+
+        .personal-info {
+          .info-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+
+            p {
+              font-size: 18px;
+              font-weight: bold;
+
+              span {
+                margin-left: 0;
+                font-size: 16px;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+
+      .btn {
+        position: relative;
+        top: -5px;
+      }
+    }
+
+    // Skills
+
+    .skills {
+      .skill-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+      }
+    }
+
+
+    // portofolio
+    .portofolio {
+      .portofolio-item {
+        .portofolio-item-inner {
+          .portofolio-img {
+            .view {
+              h6 {
+                font-size: 25px;
+              }
             }
           }
         }
       }
     }
 
-    .btn {
-      position: relative;
-      top: -5px;
-    }
-  }
-
-  // Skills
-
-  .skills {
-    .skill-item {
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-bottom: 50px;
-    }
-  }
-
-
-  // portofolio
-  .portofolio {
-    .portofolio-item {
-      .portofolio-item-inner {
-        .portofolio-img {
-          .view {
-            h6 {
-              font-size: 25px;
-            }
-          }
-        }
+    // Contact
+    .contact {
+      .contact-title {
+        font-size: 22px;
       }
-    }
-  }
 
-  // Contact
-  .contact {
-    .contact-title {
-      font-size: 22px;
-    }
+      .contact-info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
 
-    .contact-info-item {
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
-
-    .contact-form {
-      flex: 0 0 100%;
-      max-width: 100%;
-
-      .form-item {
-        margin-bottom: 30px;
+      .contact-form {
         flex: 0 0 100%;
         max-width: 100%;
 
-        textarea.form-control {
-          height: 300px;
-        }
-      }
-    }
-  }
-}
+        .form-item {
+          margin-bottom: 30px;
+          flex: 0 0 100%;
+          max-width: 100%;
 
-
-@media (max-width:550px) {
-
-  // Aside
-  .aside {
-    left: -270px;
-
-    &.open {
-      width: 100vw;
-      left: 0;
-
-    }
-
-    .nav-toggler {
-      display: flex;
-
-      &.open {
-        left: 400px;
-      }
-
-    }
-  }
-
-}
-
-@media (max-width:450px) {
-
-  // Aside
-  .aside {
-    .nav-toggler {
-      &.open {
-        left: 300px;
-      }
-    }
-  }
-}
-
-@media (max-width:420px) {
-
-  // Aside
-  .aside {
-    .nav-toggler {
-      &.open {
-        left: 345px;
-      }
-    }
-  }
-}
-
-@media (max-width:394px) {
-
-  // Aside
-  .aside {
-    .nav-toggler {
-      &.open {
-        left: 320px;
-      }
-    }
-  }
-
-  // Home
-  .home {
-    .typing {
-      font-size: 25px;
-    }
-
-    .btn {
-      position: relative;
-      top: -30px;
-    }
-  }
-
-  // About
-  .about {
-    .about-content {
-      .personal-info {
-        .info-item {
-          p {
-            font-size: 12px;
+          textarea.form-control {
+            height: 300px;
           }
         }
       }
     }
   }
 
-  // portofolio
-  .portofolio {
-    .portofolio-item {
-      .portofolio-item-inner {
-        .portofolio-img {
-          .view {
-            h6 {
-              font-size: 16px;
+
+  @media (max-width:550px) {
+
+    // Aside
+    .aside {
+      left: -270px;
+
+      &.open {
+        width: 100vw;
+        left: 0;
+
+      }
+
+      .nav-toggler {
+        display: flex;
+
+        &.open {
+          left: 400px;
+        }
+
+      }
+    }
+
+  }
+
+  @media (max-width:450px) {
+
+    // Aside
+    .aside {
+      .nav-toggler {
+        &.open {
+          left: 300px;
+        }
+      }
+    }
+  }
+
+  @media (max-width:420px) {
+
+    // Aside
+    .aside {
+      .nav-toggler {
+        &.open {
+          left: 345px;
+        }
+      }
+    }
+  }
+
+  @media (max-width:394px) {
+
+    // Aside
+    .aside {
+      .nav-toggler {
+        &.open {
+          left: 320px;
+        }
+      }
+    }
+
+    // Home
+    .home {
+      .typing {
+        font-size: 25px;
+      }
+
+      .btn {
+        position: relative;
+        top: -30px;
+      }
+    }
+
+    // About
+    .about {
+      .about-content {
+        .personal-info {
+          .info-item {
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    // portofolio
+    .portofolio {
+      .portofolio-item {
+        .portofolio-item-inner {
+          .portofolio-img {
+            .view {
+              h6 {
+                font-size: 16px;
+              }
             }
           }
         }
       }
     }
   }
-}
 
-@media (max-width:360px) {
+  @media (max-width:360px) {
 
-  // Aside
-  .aside {
-    .nav-toggler {
-      &.open {
-        left: 300px;
+    // Aside
+    .aside {
+      .nav-toggler {
+        &.open {
+          left: 300px;
+        }
+      }
+    }
+
+    // Home
+    .home {
+      .typing {
+        font-size: 17px;
+        font-weight: bold;
       }
     }
   }
 
-  // Home
-  .home {
-    .typing {
-      font-size: 17px;
-      font-weight: bold;
-    }
-  }
-}
 
 
+  // Land Scape Screen
+  @media (max-width:330px) {
 
-// Land Scape Screen
-@media (max-width:330px) {
+    // Aside
+    .aside {
+      align-items: flex-end;
 
-  // Aside
-  .aside {
-    align-items: flex-end;
+      .nav-toggler {
+        &.open {
+          left: 260px;
+        }
 
-    .nav-toggler {
-      &.open {
-        left: 260px;
-      }
-
-    }
-  }
-}
-
-
-
-@media (max-width:290px) {
-
-  // Aside
-  .aside {
-    .nav-toggler {
-      &.open {
-        left: 220px;
-        top: 3px;
       }
     }
   }
-}
+
+
+
+  @media (max-width:290px) {
+
+    // Aside
+    .aside {
+      .nav-toggler {
+        &.open {
+          left: 220px;
+          top: 3px;
+        }
+      }
+    }
+  }
