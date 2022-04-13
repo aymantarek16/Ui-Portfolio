@@ -847,6 +847,11 @@ ul {
   transition: all .5s;
 }
 
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 i {
+  position: relative;
+  top: 2px;
+}
+
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_car {
   background: -webkit-gradient(linear, right top, left top, from(#111213), to(#1d2b45));
   background: linear-gradient(to left, #111213, #1d2b45);
