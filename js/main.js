@@ -97,8 +97,9 @@ function activeFeatured() {
 }
 
 linkList.forEach((e) => e.addEventListener("click", activeFeatured));
+
 // ======================== Jquery Code ======================== //
 
-  $(window).on("load", function () {
-    $(".loader").fadeOut("2000"), $(".content").fadeIn("2000");
-  });
+$(window).on("load", function () {
+  $(".loader").fadeOut("2000"), $(".content").fadeIn("2000");
+});

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -22,7 +22,6 @@ body {
   direction: ltr;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Poppins" sans-serif;
 }
 
 html {
@@ -780,17 +779,28 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .portofolio .List__filters .list__item {
-  color: #fff;
-  padding: 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  all: unset;
+  padding: 5px 12px;
+  border-radius: 10px;
+  color: var(--bg-black-900);
+  font-weight: 500;
+  background-color: var(--text-black-900);
+  font-family: 'Cairo', sans-serif;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 .portofolio .List__filters .active-list {
@@ -808,7 +818,6 @@ ul {
 }
 
 .portofolio .portofolio-item .portofolio-item-inner {
-  border: 6px solid var(--bg-black-100);
   border-radius: 20px;
   overflow: hidden;
   -webkit-transition: all 0.3s;
