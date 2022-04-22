@@ -77,8 +77,26 @@ function stopProgAnimate() {
 }
 skillsLink.addEventListener("click", () => {
   openProgAnimat();
-}),
+});
 
+/*=============== MIXITUP FILTER FEATURED ===============*/
+let mixerFeatured = mixitup(".project__content", {
+  selectors: {
+    target: ".project__card",
+  },
+  animation: {
+    duration: 300,
+  },
+});
+/* Link active featured */
+const linkList = document.querySelectorAll(".list__item");
+
+function activeFeatured() {
+  linkList.forEach((e) => e.classList.remove("active-list"));
+  this.classList.add("active-list");
+}
+
+linkList.forEach((e) => e.addEventListener("click", activeFeatured));
 // ======================== Jquery Code ======================== //
 
   $(window).on("load", function () {

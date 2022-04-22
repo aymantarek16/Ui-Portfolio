@@ -5,20 +5,25 @@
     padding-bottom: 40px;
   }
 
-  .portofolio-heading {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-
-    h2 {
-      color: var(--text-black-900);
-      font-weight: 500;
-      font-size: 28px;
+  .List__filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    .list__item{
+      color: #fff;
+      padding: 5px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .active-list{
+      background-color: var(--skin-color);
+      color: #fff;
+      font-weight: bold;
     }
   }
 
   .portofolio-item {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     max-width: 50%;
     margin-bottom: 30px;
 

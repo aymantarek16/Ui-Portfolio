@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!--=============== Meta ===============-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,24 +10,33 @@
     <meta name="keywords" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Header Theme Color On Google Chrome -->
+
+    <!--=============== Header Theme Color On Google Chrome Browser ===============-->
     <meta name="theme-color" content="#f2f2fc" class="theme-color">
+
+    <!--=============== Title Of WebPage ===============-->
     <title>Portofolio</title>
-    <!--Fav Icon-->
+
+    <!--=============== Fav Icon ===============-->
     <link rel="shortcut icon" href="img/FavIcon.jpg" type="image/x-icon">
-    <!--Fontawesome Cdn-->
+
+    <!--=============== Fontawesome Cdn ===============-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <!--Bootstarp 4 Framework-->
+
+    <!--=============== Bootstarp 4 File ===============-->
     <link rel="stylesheet" href="Css/bootstrap.min.css" />
-    <!-- Cdn Wow Animate For Css -->
+
+    <!--=============== Cdn Css Wow Animate ===============-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css"
         integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Main Css File -->
+
+    <!--=============== Main Css File ===============-->
     <link rel="stylesheet" href="Css/Style_Switcher_ Css Files/color-1.css">
     <link rel="stylesheet" href="Css/main.css">
-    <!-- Style Switcher Css File -->
+
+    <!--=============== Style Switcher Css File ===============-->
     <link rel="stylesheet" href="Css/Style_Switcher_ Css Files/color-1.css" class="alternate-style" title="color-1"
         disabled>
     <link rel="stylesheet" href="Css/Style_Switcher_ Css Files/color-2.css" class="alternate-style" title="color-2"
@@ -382,25 +392,42 @@
 
 
                 <!-- Portofolio Section Start -->
-                <section class="portofolio section" id="portofolio">
+                <section class="portofolio section active" id="portofolio">
                     <div class="container">
-                        <div class="row">
+                        <div class="row portofolio-heading">
                             <div class="section-title padd-15">
                                 <h2>Portofolio</h2>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="portofolio-heading padd-15">
-                                <h2>Ui Projects :</h2>
-                            </div>
-                        </div>
+                        <ul class="List__filters grid">
+
+                            <li>
+                                <button class="list__item active-list" data-filter="all">
+                                    <span>All</span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="list__item" data-filter=".ui">
+                                    <span>Ui</span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="list__item" data-filter=".react">
+                                    <span>React</span>
+                                </button>
+                            </li>
 
 
-                        <div class="row">
+                        </ul>
+
+
+                        <div class="row project__content">
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/Car Website.png" alt="Burger"
@@ -420,7 +447,7 @@
 
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/Coza Store.jpg" alt="Coza Store"
@@ -436,7 +463,7 @@
                             <!-- ======= Portofolio Item End =======  -->
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/Burger.jpg" alt="Burger" loading="lazy">
@@ -454,7 +481,7 @@
 
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/GO Study.jpg" alt="GO Study" loading="lazy">
@@ -470,7 +497,7 @@
                             <!-- ======= Portofolio Item End =======  -->
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/Coffee.jpg" alt="Coffee" loading="lazy">
@@ -487,7 +514,7 @@
 
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/Engage Business.jpg" alt="Engage_Business"
@@ -505,7 +532,7 @@
 
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/Tast It.jpg" alt="Tast_It" loading="lazy">
@@ -521,7 +548,7 @@
                             <!-- ======= Portofolio Item End =======  -->
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix ui">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/Weather App.jpg" alt="Weather App"
@@ -540,13 +567,9 @@
 
                             <!-- ================ React App Projects ================ -->
 
-                            <div class="portofolio-heading padd-15">
-                                <h2>React App Projects :</h2>
-                            </div>
-
 
                             <!-- ======= Portofolio Item Start =======  -->
-                            <div class="portofolio-item padd-15">
+                            <div class="portofolio-item padd-15 project__card mix react">
                                 <div class="portofolio-item-inner shadow-dark">
                                     <div class="portofolio-img">
                                         <img src="img/Portofolio Background/To Do List.jpg" alt="To Do List"
@@ -789,14 +812,20 @@
     <script>
         new WOW().init();
     </script>
-    <!-- Jquery File -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <!-- Js File -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-        referrerpolicy="no-referrer"></script>
-    <!--Auto Typing-->
+
+    <!--=============== Auto Typing ===============-->
     <script src="js/style_switchir.js" defer></script>
     <script src="js/main.js" defer></script>
+
+    <!--=============== Jquery File ===============-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!--=============== MIXITUP JS ===============-->
+    <script src="js/mixitup.min.js"></script>
+
+    <!--=============== Js File ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
 
 </body>
 
