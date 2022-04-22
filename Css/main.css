@@ -779,9 +779,6 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -792,8 +789,8 @@ ul {
 
 .portofolio .List__filters .list__item {
   all: unset;
-  padding: 5px 12px;
-  border-radius: 10px;
+  padding: 7px 22px;
+  border-radius: 5px;
   color: var(--bg-black-900);
   font-weight: 500;
   background-color: var(--text-black-900);
@@ -801,6 +798,10 @@ ul {
   cursor: pointer;
   -webkit-transition: .2s;
   transition: .2s;
+}
+
+.portofolio .List__filters .list__item:hover {
+  background-color: var(--skin-color);
 }
 
 .portofolio .List__filters .active-list {
