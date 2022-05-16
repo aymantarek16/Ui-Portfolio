@@ -5,7 +5,7 @@ var typed = new Typed(".typing", {
   strings: ["Front End", "Web Developer"],
   typeSpeed: 60,
   BackSpeed: 60,
-  loop: !0,
+  loop: true,
 });
 // ======================== Aside ======================== //
 

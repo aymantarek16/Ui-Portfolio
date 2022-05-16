@@ -8,8 +8,6 @@
     flex: 0 0 33.33%;
     max-width: 33.33%;
 
-
-
     &:not(.top3Skills) {
       margin-top: 60px;
     }
@@ -44,15 +42,12 @@
       height: 7px;
       margin-top: 20px;
 
-
-
       .progress-bar {
         border-radius: 20px;
         height: 7px;
         transition: width 2.5s linear;
       }
     }
-
 
     // Html
     .html_prog {
@@ -61,7 +56,12 @@
 
     // Css
     .css_prog {
-      background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(67, 9, 121, 1) 13%, rgba(9, 212, 255, 1) 100%);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(67, 9, 121, 1) 13%,
+        rgba(9, 212, 255, 1) 100%
+      );
     }
 
     // Js
@@ -98,20 +98,17 @@
     .Gulpjs_prog {
       background: linear-gradient(to right, #ef473a, #cb2d3e);
     }
-
-    // Jest
-    .Jest_prog {
-      background: #81203fbe;
+    // GitHup
+    .GitHup_prog {
+      background: linear-gradient(to left, #434343, #000000);
     }
-
     // React.js
     .React_js_prog {
       background: #36d1dc;
     }
-
-    // GitHup
-    .GitHup_prog {
-      background: linear-gradient(to top, #434343, #000000);
+    // Next.js
+    .next_js_prog {
+      background: #000;
     }
   }
 }

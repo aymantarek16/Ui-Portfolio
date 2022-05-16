@@ -754,17 +754,17 @@ ul {
   background: linear-gradient(to right, #ef473a, #cb2d3e);
 }
 
-.skills .skill-item .Jest_prog {
-  background: #81203fbe;
+.skills .skill-item .GitHup_prog {
+  background: -webkit-gradient(linear, right top, left top, from(#434343), to(#000000));
+  background: linear-gradient(to left, #434343, #000000);
 }
 
 .skills .skill-item .React_js_prog {
   background: #36d1dc;
 }
 
-.skills .skill-item .GitHup_prog {
-  background: -webkit-gradient(linear, left bottom, left top, from(#434343), to(#000000));
-  background: linear-gradient(to top, #434343, #000000);
+.skills .skill-item .next_js_prog {
+  background: #000;
 }
 
 .portofolio .container {
