@@ -794,10 +794,10 @@ ul {
   color: var(--bg-black-900);
   font-weight: 500;
   background-color: var(--text-black-900);
-  font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
   cursor: pointer;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .portofolio .List__filters .list__item:hover {
@@ -867,8 +867,8 @@ ul {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 i {
@@ -887,8 +887,8 @@ ul {
 }
 
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_coza_store {
-  background: -webkit-gradient(linear, left bottom, left top, from(#E7E9BB), to(#403B4A));
-  background: linear-gradient(to top, #E7E9BB, #403B4A);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e7e9bb), to(#403b4a));
+  background: linear-gradient(to top, #e7e9bb, #403b4a);
 }
 
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_go_study {
@@ -917,8 +917,8 @@ ul {
 }
 
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_todolist {
-  background: -webkit-gradient(linear, right top, left top, from(#38ef7d), to(#11998e));
-  background: linear-gradient(to left, #38ef7d, #11998e);
+  background: -webkit-gradient(linear, left top, right top, from(#30b1cb), to(#157b8f));
+  background: linear-gradient(to right, #30b1cb, #157b8f);
 }
 
 .contact .contact-title {
