@@ -634,6 +634,21 @@ ul {
 .portofolio .List__filters .list__item:hover {
   background-color: var(--skin-color);
 }
+@media (max-width: 600px) {
+  .portofolio .List__filters .list__item {
+    padding: 7px 13px;
+  }
+}
+@media (max-width: 330px) {
+  .portofolio .List__filters .list__item {
+    padding: 7px 10px;
+  }
+}
+@media (max-width: 300px) {
+  .portofolio .List__filters .list__item {
+    padding: 6px;
+  }
+}
 .portofolio .List__filters .active-list {
   background-color: var(--skin-color);
   color: #fff;

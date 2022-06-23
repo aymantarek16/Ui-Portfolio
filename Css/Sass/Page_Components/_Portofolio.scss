@@ -24,6 +24,15 @@
       &:hover {
         background-color: var(--skin-color);
       }
+      @media (max-width : 600px) {
+        padding: 7px 13px;
+      }
+      @media (max-width : 330px) {
+        padding: 7px 10px;
+      }
+      @media (max-width : 300px) {
+        padding: 6px;
+      }
     }
     .active-list {
       background-color: var(--skin-color);
