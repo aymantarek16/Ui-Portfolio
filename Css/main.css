@@ -636,7 +636,7 @@ ul {
 }
 @media (max-width: 600px) {
   .portofolio .List__filters .list__item {
-    padding: 7px 13px;
+    padding: 7px 15px;
   }
 }
 @media (max-width: 330px) {
