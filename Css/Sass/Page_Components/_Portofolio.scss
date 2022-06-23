@@ -50,9 +50,12 @@
         opacity: 1;
       }
 
-      &:hover .portofolio-img .view h6 {
-        top: 50%;
-        cursor: pointer;
+      &:hover .portofolio-img .view .demoLink {
+        top: 30%;
+      }
+
+      &:hover .portofolio-img .view .gitLink {
+        bottom: 30%;
       }
 
       .portofolio-img {
@@ -80,12 +83,27 @@
             top: 0;
             left: 50%;
             transform: translate(-50%, -50%);
-            transition: all 0.5s;
 
             i {
               position: relative;
               top: 2px;
             }
+          }
+          .demoLink,
+          .gitLink {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.5s;
+          }
+          .demoLink {
+            top: 0%;
+            left: 50%;
+          }
+          .gitLink {
+            bottom: 0%;
+            left: 50%;
           }
         }
 
@@ -126,6 +144,9 @@
         }
         .view_todolist {
           background: linear-gradient(to right, #30b1cb, #157b8f);
+        }
+        .view_ChatApp {
+          background: linear-gradient(150deg, #d9dbe2, #808aac 100%, #282d39 0);
         }
       }
     }

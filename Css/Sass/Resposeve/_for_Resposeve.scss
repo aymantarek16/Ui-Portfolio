@@ -1,6 +1,4 @@
 @media (max-width:1199px) {
-
-
   .section {
     left: 0;
 
@@ -355,7 +353,7 @@
           .portofolio-img {
             .view {
               h6 {
-                font-size: 16px;
+                font-size: 15px;
               }
             }
           }
@@ -415,4 +413,19 @@
         }
       }
     }
+
+        // portofolio
+        .portofolio {
+          .portofolio-item {
+            .portofolio-item-inner {
+              .portofolio-img {
+                .view {
+                  h6 {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+        }
   }
