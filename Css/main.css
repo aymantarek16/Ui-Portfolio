@@ -746,7 +746,7 @@ ul {
   background: linear-gradient(to right, #e7cf88, #b47f36);
 }
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_DashBoard {
-  background: linear-gradient(to right, #8624DB, #FF9066);
+  background: linear-gradient(180deg, #8624DB, #FF9066);
 }
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_AppleStore {
   background: linear-gradient(to right, gray, #333);
