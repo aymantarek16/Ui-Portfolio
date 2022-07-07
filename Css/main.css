@@ -748,6 +748,9 @@ ul {
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_DashBoard {
   background: linear-gradient(180deg, #8624DB, #FF9066);
 }
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_watchShop {
+  background: linear-gradient(180deg, #ff2020, #ccc);
+}
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_AppleStore {
   background: linear-gradient(to right, gray, #333);
 }
