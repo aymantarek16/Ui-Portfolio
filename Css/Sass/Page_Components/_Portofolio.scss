@@ -24,13 +24,13 @@
       &:hover {
         background-color: var(--skin-color);
       }
-      @media (max-width : 600px) {
+      @media (max-width: 600px) {
         padding: 7px 15px;
       }
-      @media (max-width : 330px) {
+      @media (max-width: 330px) {
         padding: 7px 10px;
       }
-      @media (max-width : 300px) {
+      @media (max-width: 300px) {
         padding: 6px;
       }
     }
@@ -148,7 +148,7 @@
           background: linear-gradient(to right, #e7cf88, #b47f36);
         }
         .view_DashBoard {
-          background: linear-gradient(180deg, #8624DB, #FF9066);
+          background: linear-gradient(180deg, #8624db, #ff9066);
         }
         .view_watchShop {
           background: linear-gradient(180deg, #ff2020, #ccc);
@@ -158,6 +158,9 @@
         }
         .view_todolist {
           background: linear-gradient(to right, #30b1cb, #157b8f);
+        }
+        .viewGoogle {
+          background: linear-gradient(to left, #eee, #ddd);
         }
 
         .view_ChatApp {

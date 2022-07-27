@@ -746,7 +746,7 @@ ul {
   background: linear-gradient(to right, #e7cf88, #b47f36);
 }
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_DashBoard {
-  background: linear-gradient(180deg, #8624DB, #FF9066);
+  background: linear-gradient(180deg, #8624db, #ff9066);
 }
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_watchShop {
   background: linear-gradient(180deg, #ff2020, #ccc);
@@ -756,6 +756,9 @@ ul {
 }
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_todolist {
   background: linear-gradient(to right, #30b1cb, #157b8f);
+}
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .viewGoogle {
+  background: linear-gradient(to left, #eee, #ddd);
 }
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_ChatApp {
   background: linear-gradient(150deg, #d9dbe2, #808aac 100%, #282d39 0);
@@ -848,7 +851,6 @@ ul {
   .section .container {
     padding-top: 70px;
   }
-
   .aside {
     left: -270px;
   }
@@ -859,11 +861,9 @@ ul {
     display: flex;
     left: 30px;
   }
-
   .home .mousemove {
     display: none;
   }
-
   .about .about-content .personal-info .info-item p span {
     display: block;
     margin-left: 0;
@@ -873,7 +873,6 @@ ul {
   ::-webkit-scrollbar-track {
     background: #fff;
   }
-
   .aside {
     overflow-y: scroll !important;
     overflow-x: hidden !important;
@@ -881,7 +880,6 @@ ul {
   .aside ul {
     margin-top: 200px;
   }
-
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
@@ -910,7 +908,6 @@ ul {
     width: 60%;
     height: auto !important;
   }
-
   .skills .skill-item {
     flex: 0 0 50%;
     max-width: 50%;
@@ -919,7 +916,6 @@ ul {
   .skills .skill-item:not(.top3Skills) {
     margin-top: 0 !important;
   }
-
   .portofolio .portofolio-item {
     flex: 0 0 100%;
     max-width: 100%;
@@ -944,7 +940,6 @@ ul {
   .aside .nav-toggler {
     display: flex;
   }
-
   .home .typing {
     font-size: 25px;
   }
@@ -952,7 +947,6 @@ ul {
     position: relative;
     top: -7px;
   }
-
   .about .about-content .about-text h3 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -977,17 +971,14 @@ ul {
     position: relative;
     top: -5px;
   }
-
   .skills .skill-item {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 50px;
   }
-
   .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 {
     font-size: 25px;
   }
-
   .contact .contact-title {
     font-size: 22px;
   }
@@ -1037,7 +1028,6 @@ ul {
   .aside .nav-toggler.open {
     left: 320px;
   }
-
   .home .typing {
     font-size: 25px;
   }
@@ -1045,11 +1035,9 @@ ul {
     position: relative;
     top: -30px;
   }
-
   .about .about-content .personal-info .info-item p {
     font-size: 12px;
   }
-
   .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 {
     font-size: 15px;
   }
@@ -1058,7 +1046,6 @@ ul {
   .aside .nav-toggler.open {
     left: 300px;
   }
-
   .home .typing {
     font-size: 17px;
     font-weight: bold;
@@ -1077,7 +1064,6 @@ ul {
     left: 220px;
     top: 3px;
   }
-
   .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 {
     font-size: 12px;
   }
