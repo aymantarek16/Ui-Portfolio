@@ -760,6 +760,9 @@ ul {
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .viewGoogle {
   background: linear-gradient(to left, #eee, #ddd);
 }
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_foodDelivery {
+  background: linear-gradient(to bottom, #df2020 65%, #fde4e4);
+}
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_ChatApp {
   background: linear-gradient(150deg, #d9dbe2, #808aac 100%, #282d39 0);
 }
