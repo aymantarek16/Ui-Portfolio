@@ -701,6 +701,11 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 600px) {
+  .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 {
+    font-size: 20px;
+  }
+}
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view h6 i {
   position: relative;
   top: 2px;
