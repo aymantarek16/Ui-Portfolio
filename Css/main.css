@@ -771,6 +771,9 @@ ul {
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_ChatApp {
   background: linear-gradient(150deg, #d9dbe2, #808aac 100%, #282d39 0);
 }
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_nextJS-Ecommerce {
+  background: linear-gradient(to top, #f5f5f5, #333);
+}
 
 .contact .contact-title {
   color: var(--skin-color);
