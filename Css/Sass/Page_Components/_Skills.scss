@@ -73,6 +73,11 @@
     .Bootstrap_prog {
       background: linear-gradient(to right, #523c85, #673ab7);
     }
+    // ES6
+    .es_prog {
+      background: linear-gradient(to left, #ee9b00, #fffc00);
+
+    }
 
     // jquery
     .Jquery_prog {
@@ -88,27 +93,24 @@
     .SASS_prog {
       background: linear-gradient(to right, #f15f79, #b24592);
     }
-
-    // Pugjs
-    .Pugjs_prog {
-      background: royalblue;
-    }
-
-    // Gulpjs
-    .Gulpjs_prog {
-      background: linear-gradient(to right, #ef473a, #cb2d3e);
-    }
-    // GitHup
-    .GitHup_prog {
-      background: linear-gradient(to left, #434343, #000000);
-    }
+   
     // React.js
     .React_js_prog {
       background: #36d1dc;
     }
+
+     // Redux
+     .redux_prog {
+      background: #673ab7;
+    }
     // Next.js
     .next_js_prog {
       background: #000;
+    }
+
+    // GitHup
+    .GitHup_prog {
+      background: linear-gradient(to left, #434343, #000000);
     }
   }
 }
