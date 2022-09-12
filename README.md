@@ -1,6 +1,6 @@
 # My-Personal-Site
 
-Full Responseve Design 
+This is my personal website. I have used all my skills in this project and added all my projects with continuous updating when building a new project.. Also there are all my contacts.. The site is responsive to all types of screens and devices
 
 ### Technologies Used:
 
