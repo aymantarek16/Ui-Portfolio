@@ -11,6 +11,7 @@
     justify-content: center;
     column-gap: 1.5rem;
     margin-bottom: 2rem;
+
     .list__item {
       all: unset;
       padding: 7px 22px;
@@ -21,19 +22,24 @@
       font-family: "Cairo", sans-serif;
       cursor: pointer;
       transition: 0.2s;
+
       &:hover {
         background-color: var(--skin-color);
       }
+
       @media (max-width: 600px) {
         padding: 7px 15px;
       }
+
       @media (max-width: 330px) {
         padding: 7px 10px;
       }
+
       @media (max-width: 300px) {
         padding: 6px;
       }
     }
+
     .active-list {
       background-color: var(--skin-color);
       color: #fff;
@@ -92,9 +98,10 @@
             top: 0;
             left: 50%;
             transform: translate(-50%, -50%);
+
             @media screen and (max-width: 600px) {
               font-size: 20px;
-              
+
             }
 
             i {
@@ -102,6 +109,7 @@
               top: 2px;
             }
           }
+
           .demoLink,
           .gitLink {
             position: absolute;
@@ -110,10 +118,12 @@
             width: 100%;
             transition: all 0.5s;
           }
+
           .demoLink {
             top: 0%;
             left: 50%;
           }
+
           .gitLink {
             bottom: 0%;
             left: 50%;
@@ -122,6 +132,10 @@
 
         .view_car {
           background: linear-gradient(to left, #111213, #1d2b45);
+        }
+
+        .view_photo {
+          background: linear-gradient(to left, #333, #222);
         }
 
         .view_burger {
@@ -151,21 +165,27 @@
         .view_Weather_App {
           background: linear-gradient(to right, #e7cf88, #b47f36);
         }
+
         .view_DashBoard {
           background: linear-gradient(180deg, #8624db, #ff9066);
         }
+
         .view_watchShop {
           background: linear-gradient(180deg, #ff2020, #ccc);
         }
+
         .view_AppleStore {
           background: linear-gradient(to right, gray, #333);
         }
+
         .view_todolist {
           background: linear-gradient(to right, #30b1cb, #157b8f);
         }
+
         .viewGoogle {
           background: linear-gradient(to left, #eee, #ddd);
         }
+
         .view_foodDelivery {
           background: linear-gradient(to bottom, #df2020 65%, #fde4e4);
         }
@@ -173,8 +193,9 @@
         .view_ChatApp {
           background: linear-gradient(150deg, #d9dbe2, #808aac 100%, #282d39 0);
         }
-        .view_nextJS-Ecommerce{
-          background: linear-gradient(to top,  #f5f5f5, #333);
+
+        .view_nextJS-Ecommerce {
+          background: linear-gradient(to top, #f5f5f5, #333);
         }
       }
     }
