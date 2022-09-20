@@ -56,12 +56,10 @@
 
     // Css
     .css_prog {
-      background: linear-gradient(
-        90deg,
-        rgba(2, 0, 36, 1) 0%,
-        rgba(67, 9, 121, 1) 13%,
-        rgba(9, 212, 255, 1) 100%
-      );
+      background: linear-gradient(90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(67, 9, 121, 1) 13%,
+          rgba(9, 212, 255, 1) 100%);
     }
 
     // Js
@@ -73,6 +71,7 @@
     .Bootstrap_prog {
       background: linear-gradient(to right, #523c85, #673ab7);
     }
+
     // ES6
     .es_prog {
       background: linear-gradient(to left, #ee9b00, #fffc00);
@@ -93,16 +92,17 @@
     .SASS_prog {
       background: linear-gradient(to right, #f15f79, #b24592);
     }
-   
+
     // React.js
     .React_js_prog {
       background: #36d1dc;
     }
 
-     // Redux
-     .redux_prog {
+    // Redux
+    .redux_prog {
       background: #673ab7;
     }
+
     // Next.js
     .next_js_prog {
       background: #000;
