@@ -98,16 +98,7 @@ ul {
 .section.active {
   z-index: 2;
   opacity: 1;
-  -webkit-animation: slideSection 1s ease;
-          animation: slideSection 1s ease;
-}
-@-webkit-keyframes slideSection {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
+  animation: slideSection 1s ease;
 }
 @keyframes slideSection {
   0% {
@@ -198,13 +189,7 @@ ul {
   inset: 0;
   margin: auto;
   border-radius: 50%;
-  -webkit-animation: loading 1s infinite linear;
-          animation: loading 1s infinite linear;
-}
-@-webkit-keyframes loading {
-  100% {
-    transform: rotate(360deg);
-  }
+  animation: loading 1s infinite linear;
 }
 @keyframes loading {
   100% {
