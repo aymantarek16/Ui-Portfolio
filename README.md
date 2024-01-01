@@ -9,6 +9,6 @@ This is my personal website. I have used all my skills in this project and added
 1. Html
 2. Scss
 3. js
- 
+4. local storage
 
 ![preview](https://i.imgur.com/B3aUfN7.png)
