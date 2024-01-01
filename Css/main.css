@@ -750,11 +750,14 @@ ul {
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_AppleStore {
   background: linear-gradient(to right, gray, #333);
 }
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .viewEcommerceCloth {
+  background: linear-gradient(to right, #191818, #302a2a);
+}
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_todolist {
   background: linear-gradient(to right, #30b1cb, #157b8f);
 }
-.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .viewGoogle {
-  background: linear-gradient(to left, #eee, #ddd);
+.portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_todolist_firebse {
+  background: linear-gradient(to right, #14061f, #1f0b30);
 }
 .portofolio .portofolio-item .portofolio-item-inner .portofolio-img .view_foodDelivery {
   background: linear-gradient(to bottom, #df2020 65%, #fde4e4);
