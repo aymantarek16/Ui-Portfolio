@@ -6,12 +6,9 @@ A React portfolio website is a personal or professional website built using the 
 ## site components:
 
 1. About Me: Here, visitors can find more information about the website owner. It may include details about their background, experiences, CV, and links to social media profiles.
-2. 
-3. Portfolio: This section highlights the projects or works of the website owner. Each project is usually displayed as a thumbnail or card with a brief description
-4. 
-5. Contact: This section provides various ways for visitors to get in touch with the website owner. It typically includes a contact form and email address.
-6. 
-7. Footer: contains copyright information
+2. Portfolio: This section highlights the projects or works of the website owner. Each project is usually displayed as a thumbnail or card with a brief description4. 
+3. Contact: This section provides various ways for visitors to get in touch with the website owner. It typically includes a contact form and email address.
+4. Footer: contains copyright information.
 
 ### Technologies Used:
 
